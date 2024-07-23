@@ -1,0 +1,5 @@
+services:
+  jekyll:
+    build: .
+    volumes: 
+      - .:/srv/jekyll
