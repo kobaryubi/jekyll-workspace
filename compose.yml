@@ -6,4 +6,4 @@ services:
       - .:/srv/jekyll
     ports:
       - 4000:4000
-    command: jekyll serve --host 0.0.0.0 --watch --livereload
+    command: jekyll serve --host 0.0.0.0 --livereload
